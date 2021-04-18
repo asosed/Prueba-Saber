@@ -1,0 +1,24 @@
+name: Prueba-Saber
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - invoke
+  - jupyter
+  - jupyterlab
+  - pip
+  - python=3.9
+  - kaggle
+  - pytorch
+  - matplotlib
+  - seaborn 
+  - pandas 
+  - pyjanitor
+  - scikit-learn
+  - shap
+  - numpy 
+  - pandas-flavor
+  - pip:
+    - h2o
+    - pyhere
